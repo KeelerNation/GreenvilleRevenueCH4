@@ -5,6 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
 
+/* Zach, Jeff
+ * 2/8/2018
+ * This program displays a message depending on some conditions
+ *  none */
+
 namespace GreenvilleRevenue
 {
     class Program
@@ -39,8 +44,6 @@ namespace GreenvilleRevenue
 
             }
 
-            else if (num1 * 2 < num2)
-                WriteLine("The competition is more than twice as big this year!");
 
             else if (num1 > num2)
                 WriteLine("A tighter race this year! Come out and cast your vote!");
